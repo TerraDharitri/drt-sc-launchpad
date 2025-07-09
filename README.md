@@ -2,9 +2,9 @@
 
 ## Launchpad smart contract
 
-We aim to start several “launchpad” projects on DharitrI and for the token launch we want to create a set of smart contracts which handle in a decentralized manner the selection of token buyers. The basic idea is that the user is eligible to buy a set of lottery tickets for the given launchpad according to the number of REWA tokens the user stakes / delegates. On top of this every user who wants to participate in the token sale event must register and must do a KYC.
+We aim to start several “launchpad” projects on Dharitri and for the token launch we want to create a set of smart contracts which handle in a decentralized manner the selection of token buyers. The basic idea is that the user is eligible to buy a set of lottery tickets for the given launchpad according to the number of REWA tokens the user stakes / delegates. On top of this every user who wants to participate in the token sale event must register and must do a KYC.
 
-The code of computing the ticket allocation, doing snapshots of REWA token holders/delegators/stakers will be the same as for MOA tokens, when we computed the allocation for those.
+The code of computing the ticket allocation, doing snapshots of REWA token holders/delegators/stakers will be the same as for  tokens, when we computed the allocation for those.
 
 The information about the ticket allocation per address will be written into a special launchpad contract and from there a decentralized process will start to select the winners and to resolve the token sale.
 
@@ -18,12 +18,12 @@ The randomness seed to be used for the shuffling will be taken from the current 
 https://medium.com/numbatnetwork/numbat-improvement-change-in-consensus-and-randomness-source-d764a3fad35
 
 The process of the launchpad:
-1) Announce the launchpad project and the days when the snapshots for REWA delegators and stakers will happen.
+1) Announce the launchpad project and the days when the snapshots for rEWA delegators and stakers will happen.
 2) Start the KYC process.
 3) Do the snapshots and save it into a public database
 4) Launch the launchpad smart contract and set-up the custom settings
 5) Write the list(address, numberOfTickets) to the smart contract - only owner function.
-6) Users will deposit their REWA/bUSD (whitelisted token) and confirm part of all their allocated tickets.
+6) Users will deposit their rEWA/bUSD (whitelisted token) and confirm part of all their allocated tickets.
 7) Select the start date when the selection will happen.
 8) Call "filterTickets" a few times to remove the unconfirmed tickets/tickets owned by blacklisted addresses.
 9) Call “selectWinners” a few times in order to randomly shuffle all the ticket entries from the smart contract.
@@ -62,4 +62,4 @@ for i from 0 to n−2 do
 At every step, the contract verifies if it has enough gas to continue the next operation, if not, it will save the current index in order to start the selection process from that moment onwards on the next call
 After finishing the shuffle of all the elements, the contract will have a waiting period before the winners can claim their launchpad tokens and any payment for non-winning tickets.
 
-6) After X blocks a new endpoint is activated. claimLaunchpadTokens - this can be called only by those winners who confirmed their tickets by depositing REWA/bUSD. This endpoint will give the actual launchpad tokens to the users and refund the losing tickets.
+6) After X blocks a new endpoint is activated. claimLaunchpadTokens - this can be called only by those winners who confirmed their tickets by depositing rEWA/bUSD. This endpoint will give the actual launchpad tokens to the users and refund the losing tickets.

@@ -78,7 +78,7 @@ First, we will deploy and parameterize the Launchpad Smart Contract in advance f
 
 
 ### Prerequisites
-drtpy will be the base tool used to send the necessary transactions that are interacting with the Launchpad Smart Contract, so you’ll have to install it. Besides, it will be handy to have it anyway since you’re planning to work within the DharitrI ecosystem, so this sets you up for the future as well.
+drtpy will be the base tool used to send the necessary transactions that are interacting with the Launchpad Smart Contract, so you’ll have to install it. Besides, it will be handy to have it anyway since you’re planning to work within the Dharitri ecosystem, so this sets you up for the future as well.
 Go ahead and follow the instructions on this link and you’ll be up and running in no time: 
 
 [drtpy install procedure](https://docs.dharitri.org/sdk-and-tools/sdk-py/installing-drtpy/)
@@ -107,14 +107,14 @@ To get this action done, write in the prepared terminal the following command:
 ```
 depositLaunchpadTokens
 ```
-And that’s it, done. You can go ahead and check the status of the submitted transaction in the DharitrI explorer.
+And that’s it, done. You can go ahead and check the status of the submitted transaction in the Dharitri explorer.
 
 ### Add address to blacklist
 This one requires a bit more effort as we’re not yet able to guess the future and foresee the address you need to blacklist, so you’ll have to provide it yourself. Therefore, in the prepared terminal window, execute the following command (just replace the `address_to_blacklist` with the real address you have in mind):
 ```
 addAddressToBlacklist address_to_blacklist
 ```
-Done. You can go ahead and check the status of the submitted transaction in the DharitrI explorer.
+Done. You can go ahead and check the status of the submitted transaction in the Dharitri explorer.
 
 ### Remove address from blacklist
 Similarly to the way you’ve added an address to the blacklist, you can also remove it with the following command (just replace the `address_to_remove_from_blacklist` with the real address you have in mind)
@@ -149,8 +149,8 @@ The last and most important command. When the “Claim” stage is reached, just
 ```
 claimTicketPayment
 ```
-Go ahead and check the DharitrI explorer for the status of this transaction. This is the big one! 
-If everything is fine, then congrats! You’ve reached your destination on the DharitrI Launchpad.
+Go ahead and check the Dharitri explorer for the status of this transaction. This is the big one! 
+If everything is fine, then congrats! You’ve reached your destination on the Dharitri Launchpad.
 
 
 

@@ -29,7 +29,6 @@ path = ".."
 
 [dependencies.dharitri-sc-wasm-adapter]
 version = "=1.15.4"
-#path = "C:/Users/tejas/Downloads/my_works-main/my_works-main/rs-sdks/drt-rs-sdk-0.54.2/framework/wasm-adapter"
 
 [workspace]
 members = ["."]
