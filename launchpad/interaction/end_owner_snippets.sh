@@ -1,6 +1,6 @@
 OWNER_PEM_PATH="ownerWallet.pem"
 
-ADDRESS="drt1qqqqqqqqqqqqqpgqmn5m0q4mrfr4s3ddrtxce869rrvmfcuukdg0qfvggs6"
+ADDRESS="drt1qqqqqqqqqqqqqpgqmn5m0q4mrfr4s3dmxxce869rrvmfcuukdg0q5sltny"
 PROXY=https://devnet-gateway.dharitri.org
 CHAIN_ID="D"
 

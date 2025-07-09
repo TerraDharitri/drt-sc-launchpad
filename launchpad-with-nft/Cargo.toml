@@ -13,11 +13,9 @@ path = "../launchpad-common"
 
 [dependencies.dharitri-sc]
 version = "=1.15.4"
-#path = "C:/Users/tejas/Downloads/my_works-main/my_works-main/rs-sdks/drt-rs-sdk-0.54.2/framework/base"
 
 [dependencies.dharitri-sc-modules]
 version = "=1.15.4"
-#path = "C:/Users/tejas/Downloads/my_works-main/my_works-main/rs-sdks/drt-rs-sdk-0.54.2/contracts/modules"
 
 [dev-dependencies]
 num-bigint = "0.4.2"
@@ -26,8 +24,6 @@ hex = "0.4"
 
 [dev-dependencies.dharitri-sc-meta-lib]
 version = "=1.15.4"
-#path = "C:/Users/tejas/Downloads/my_works-main/my_works-main/rs-sdks/drt-rs-sdk-0.54.2/framework/meta-lib"
 
 [dev-dependencies.dharitri-sc-scenario]
 version = "=1.15.4"
-#path = "C:/Users/tejas/Downloads/my_works-main/my_works-main/rs-sdks/drt-rs-sdk-0.54.2/framework/scenario"

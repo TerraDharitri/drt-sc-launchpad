@@ -3,10 +3,10 @@ id: readme
 title: Internal launchpad SC setup & deploy procedure
 ---
 
-This document provides a description of the Launchpad Smart Contract setup, deploy, integration & flow procedures as according to DharitrI's internal strategy & infrastructure.
+This document provides a description of the Launchpad Smart Contract setup, deploy, integration & flow procedures as according to Dharitri's internal strategy & infrastructure.
 It contains only a superseding specification over the internal_readme.md of the original Launchpad SC. Thus, the steps described in here should be applied over the ones specified by the original document.
 
-Community projects may use this procedure only as FYI in regards to the general flow of the contract usage. Most of the steps can be abstracted and may be relevant to provide a general overview on how the contract operates, but some parts will not be relevant since access to DharitrI internal resources is not available (such as ticket allocation calculation) though these are not critical for running the contract.
+Community projects may use this procedure only as FYI in regards to the general flow of the contract usage. Most of the steps can be abstracted and may be relevant to provide a general overview on how the contract operates, but some parts will not be relevant since access to Dharitri internal resources is not available (such as ticket allocation calculation) though these are not critical for running the contract.
 
 ## Internal launchpad SC setup & deploy procedure
 

@@ -3,16 +3,16 @@ id: readme
 title: Internal launchpad SC setup & deploy procedure
 ---
 
-This document provides a description of the Launchpad Smart Contract setup, deploy, integration & flow procedures as according to DharitrI's internal strategy & infrastructure.
+This document provides a description of the Launchpad Smart Contract setup, deploy, integration & flow procedures as according to Dharitri's internal strategy & infrastructure.
 
-Community projects may use this procedure only as FYI in regards to the general flow of the contract usage. Most of the steps can be abstracted and may be relevant to provide a general overview on how the contract operates, but some parts will not be relevant since access to DharitrI internal resources is not available (such as ticket allocation calculation) though these are not critical for running the contract.
+Community projects may use this procedure only as FYI in regards to the general flow of the contract usage. Most of the steps can be abstracted and may be relevant to provide a general overview on how the contract operates, but some parts will not be relevant since access to Dharitri internal resources is not available (such as ticket allocation calculation) though these are not critical for running the contract.
 
 ## Internal launchpad SC setup & deploy procedure
 
 ### Prerequisites
 
 - Clone the launchpad smart contract repo:
-https://github.com/TerraDharitri/drt-launchpad-sc
+https://github.com/TerraDharitri/drt-sc-launchpad
 
 - Clone launchpad-scripts repo:
 (only internally available until further notice)
@@ -33,7 +33,7 @@ Ask the counterpart to prepare the tokens in an account onto which we’ll trans
 
 2. Go to `sc-launchpad-rs/launchpad-locked-tokens-and-guaranteed-tickets/interaction` and copy the wallet .pem file in here
 
-3. Edit `snippets.sh` with all launchpad contract details for deployment - this will be the “control panel” on DharitrI’s side
+3. Edit `snippets.sh` with all launchpad contract details for deployment - this will be the “control panel” on Dharitri’s side
 
 4. Terminal into the folder
 
